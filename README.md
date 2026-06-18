@@ -1,13 +1,33 @@
-* unzip the shared file.
+# HSTA-Net: Hybrid Self-Supervised Transfer Alignment Network
 
-*Load the data set dental-radiography-segmentation.
+This repository contains the implementation of HSTA-Net for multi-class dental disease classification.
 
-*run the program files:
+## Files
 
-1.  Network for Dentoal Disease Classification.ipynb file (proposed)
+- HSTA_Net_Proposed.ipynb
+- Ablation_No_Domain_Alignment.ipynb
+- Ablation_No_Meta_Regulation.ipynb
+- Ablation_Without_SSL_Pretraining.ipynb
 
-2.  run ablation study files individually:
-     1.No Domain Alignment.ipynb
-     2.Only ImageNet weights.ipynb
-     3.No Meta-Regulation.ipynb
-     
+## Dataset
+
+Dental Radiography Segmentation Dataset:
+https://www.kaggle.com/datasets/abbasseifossadat/dental-radiography-segmentation
+
+## Requirements
+
+- Python 3.10+
+- PyTorch
+- torchvision
+- scikit-learn
+- byol-pytorch
+- matplotlib
+- seaborn
+
+## Reproducibility
+
+Random Seed: 42
+
+## Citation
+
+If you use this code, please cite our work.
