@@ -1,4 +1,4 @@
-# HSTA-Net: Hybrid Self-Supervised Transfer Alignment Network
+# SSTA-Net: Hybrid Self-Supervised Transfer Alignment Network
 
 This repository contains the implementation of HSTA-Net for multi-class dental disease classification.
 
